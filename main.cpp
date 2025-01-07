@@ -178,11 +178,11 @@ int main()
   }
 
   // Register a node as bool value
-  std::string dlPath = dlBasePath + "myBool";
-  comm::datalayer::Variant myBool;
-  myBool.setValue(false);
+  std::string dlPath = dlBasePath + "boolFlag";
+  comm::datalayer::Variant boolFlag;
+  boolFlag.setValue(false);
   std::cout << "INFO Register node " << dlPath << std::endl;
-  comm::datalayer::DlResult result = provider->registerNode(dlPath, new MyProviderNode(myBool));
+  comm::datalayer::DlResult result = provider->registerNode(dlPath, new MyProviderNode(boolFlag));
   if (STATUS_FAILED(result))
   {
     std::cout << "WARN Register node " << dlPath << " failed with: " << result.toString() << std::endl;
@@ -258,7 +258,7 @@ int main()
   std::vector<int32_t> arintTime;
 
 
-  auto pathflag = "sdk/cpp/datalayer/provider/simple/myBool";
+  auto pathflag = "sdk/cpp/datalayer/provider/simple/boolFlag";
   auto pathdrive = "sdk/cpp/datalayer/provider/simple/string-Drive";
   comm::datalayer::Variant sDriveValue;
 
@@ -266,9 +266,9 @@ int main()
   while (g_endProcess == false)
   {
     // Read the flag
-    comm::datalayer::Variant myBoolVariant;
-    dataLayerClient->readSync(pathflag, &myBoolVariant);
-    bool myBool = myBoolVariant;
+    comm::datalayer::Variant boolFlagVariant;
+    dataLayerClient->readSync(pathflag, &boolFlagVariant);
+    bool boolFlag = boolFlagVariant;
 
     // Start reading
     bool bFirstOutLoop = false;
@@ -276,7 +276,7 @@ int main()
     auto startTotal = std::chrono::high_resolution_clock::now();
     int32_t totalDurationMilliseconds = 0; // Variable pour stocker la durée totale en millisecondes
 
-    if (myBool){
+    if (boolFlag){
       // Reset le vecteur
       arfloatVitesse.clear();
       arfloatPosition.clear();
@@ -301,13 +301,12 @@ int main()
       comm::datalayer::Variant rCouple;
       auto resultCouple = dataLayerClient->readSync(pathCouple.c_str(), &rCouple);
 
-      while (myBool)
+      while (boolFlag)
       {
           // Verification du flag d'enregistrement
-          dataLayerClient->readSync(pathflag, &myBoolVariant);
-          myBool = myBoolVariant; 
+          dataLayerClient->readSync(pathflag, &boolFlagVariant);
+          boolFlag = boolFlagVariant; 
           // Synchronous read
-          std::cout << "INFO Reading synchronously..." << std::endl;
           dataLayerClient->readSync(pathVitesse, &rVitesse);
           dataLayerClient->readSync(pathPosition, &rPosition);
           dataLayerClient->readSync(pathCouple, &rCouple);
@@ -324,6 +323,15 @@ int main()
     }
     // SORTIE LECTURE
     if (bFirstOutLoop) {
+
+    // synchronisation des courbes du au décalage du plc lors du flag
+    while (arfloatPosition.size() > 1 && arfloatPosition[0] == 0.0f)
+    {
+        arfloatPosition.erase(arfloatPosition.begin());
+        arfloatVitesse.erase(arfloatVitesse.begin());
+        arfloatCouple.erase(arfloatCouple.begin());
+        arintTime.erase(arintTime.end() - 1);
+    }
       // Ecriture variables 
       comm::datalayer::Variant myArrayValue;
       myArrayValue.setValue(arfloatVitesse);
@@ -338,7 +346,7 @@ int main()
     }
 
     // Synchronous write to Array of Float64  -----------------------------------------------------------
-    std::cout << "INFO Sleeping..." << std::endl;
+
     if (provider->isConnected() == false)
     {
       std::cout << "ERROR Datalayer connection broken!" << std::endl;
@@ -356,7 +364,7 @@ int main()
 
   provider->unregisterType("types/sampleSchema/inertialValue");
 
-  provider->unregisterNode(dlBasePath + "myBool");
+  provider->unregisterNode(dlBasePath + "boolFlag");
   provider->unregisterNode(dlBasePath + "array-of-float32-Postion");
   provider->unregisterNode(dlBasePath + "array-of-float32-Couple");
   provider->unregisterNode(dlBasePath + "array-of-float32-Vitesse");

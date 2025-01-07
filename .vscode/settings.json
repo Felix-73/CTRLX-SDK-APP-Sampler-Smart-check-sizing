@@ -58,7 +58,12 @@
         "concepts": "cpp",
         "ratio": "cpp",
         "numbers": "cpp",
-        "span": "cpp"
+        "span": "cpp",
+        "codecvt": "cpp",
+        "csignal": "cpp",
+        "semaphore": "cpp",
+        "stop_token": "cpp",
+        "thread": "cpp"
     }
     
 }

@@ -1,7 +1,0 @@
-[
-{
-  "directory": "/home/boschrexroth/scripts/ctrlx-automation-sdk/samples-cpp/datalayer.client.simple/build",
-  "command": "g++    -fno-rtti -fPIC -g -std=gnu++20 -o CMakeFiles/datalayerClientSimple.dir/main.cpp.o -c /home/boschrexroth/scripts/ctrlx-automation-sdk/samples-cpp/datalayer.client.simple/main.cpp",
-  "file": "/home/boschrexroth/scripts/ctrlx-automation-sdk/samples-cpp/datalayer.client.simple/main.cpp"
-}
-]
