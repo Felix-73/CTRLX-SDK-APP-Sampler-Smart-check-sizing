@@ -1,1 +1,1 @@
-aarch64-linux-gnu-g++  -fno-rtti -fPIC CMakeFiles/datalayerClientSimple.dir/main.cpp.o -o datalayerClientSimple  -Wl,--no-undefined -lcomm_datalayer -lpthread -lsystemd -lzmq -lssl -lcrypto 
+g++  -fno-rtti -fPIC CMakeFiles/datalayerClientSimple.dir/main.cpp.o -o datalayerClientSimple  -Wl,--no-undefined -lcomm_datalayer -lpthread -lsystemd -lzmq -lssl -lcrypto 

@@ -5,5 +5,52 @@ prime/
 stage/
 *.snap
 .venv
+# CMake
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Testing/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps/
 
+# Build directories
+build/
+Build/
+BUILD/
+out/
+cmake-build-*/
+
+# CMake generated files
+*.cmake
+!CMakeLists.txt
+
+# Platform specific
+# Visual Studio
+.vs/
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.sln
+
+# Xcode
+*.xcodeproj/
+*.xcworkspace/
+
+# Ninja
+.ninja_deps
+.ninja_log
+
+# CPack
+_CPack_Packages/
+*.tar.gz
+*.zip
+*.deb
+*.rpm
+
+# CTest
+CTestTestfile.cmake
 

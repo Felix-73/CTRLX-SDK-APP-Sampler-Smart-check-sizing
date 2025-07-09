@@ -1,7 +1,7 @@
-/home/boschrexroth/SDK-smart-check-sizing/CtrlX-SDK-APP-Sampler-Smart-check-sizing/build/CMakeFiles/datalayerClientSimple.dir
-/home/boschrexroth/SDK-smart-check-sizing/CtrlX-SDK-APP-Sampler-Smart-check-sizing/build/CMakeFiles/edit_cache.dir
-/home/boschrexroth/SDK-smart-check-sizing/CtrlX-SDK-APP-Sampler-Smart-check-sizing/build/CMakeFiles/rebuild_cache.dir
-/home/boschrexroth/SDK-smart-check-sizing/CtrlX-SDK-APP-Sampler-Smart-check-sizing/build/CMakeFiles/list_install_components.dir
-/home/boschrexroth/SDK-smart-check-sizing/CtrlX-SDK-APP-Sampler-Smart-check-sizing/build/CMakeFiles/install.dir
-/home/boschrexroth/SDK-smart-check-sizing/CtrlX-SDK-APP-Sampler-Smart-check-sizing/build/CMakeFiles/install/local.dir
-/home/boschrexroth/SDK-smart-check-sizing/CtrlX-SDK-APP-Sampler-Smart-check-sizing/build/CMakeFiles/install/strip.dir
+/home/boschrexroth/ctrlx-automation-sdk/samples-python/MyProjects/CTRLX-SDK-APP-Sampler-Smart-check-sizing/build/CMakeFiles/datalayerClientSimple.dir
+/home/boschrexroth/ctrlx-automation-sdk/samples-python/MyProjects/CTRLX-SDK-APP-Sampler-Smart-check-sizing/build/CMakeFiles/edit_cache.dir
+/home/boschrexroth/ctrlx-automation-sdk/samples-python/MyProjects/CTRLX-SDK-APP-Sampler-Smart-check-sizing/build/CMakeFiles/rebuild_cache.dir
+/home/boschrexroth/ctrlx-automation-sdk/samples-python/MyProjects/CTRLX-SDK-APP-Sampler-Smart-check-sizing/build/CMakeFiles/list_install_components.dir
+/home/boschrexroth/ctrlx-automation-sdk/samples-python/MyProjects/CTRLX-SDK-APP-Sampler-Smart-check-sizing/build/CMakeFiles/install.dir
+/home/boschrexroth/ctrlx-automation-sdk/samples-python/MyProjects/CTRLX-SDK-APP-Sampler-Smart-check-sizing/build/CMakeFiles/install/local.dir
+/home/boschrexroth/ctrlx-automation-sdk/samples-python/MyProjects/CTRLX-SDK-APP-Sampler-Smart-check-sizing/build/CMakeFiles/install/strip.dir

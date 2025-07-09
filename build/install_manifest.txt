@@ -1,2 +1,2 @@
-/home/boschrexroth/SDK-smart-check-sizing/CtrlX-SDK-APP-Sampler-Smart-check-sizing/generated/ubuntu22-gcc-aarch64/datalayerClientSimple
-/home/boschrexroth/SDK-smart-check-sizing/CtrlX-SDK-APP-Sampler-Smart-check-sizing/generated/build/datalayerClientSimple
+/home/boschrexroth/ctrlx-automation-sdk/samples-python/MyProjects/CTRLX-SDK-APP-Sampler-Smart-check-sizing/generated/ubuntu22-gcc-x64/datalayerClientSimple
+/home/boschrexroth/ctrlx-automation-sdk/samples-python/MyProjects/CTRLX-SDK-APP-Sampler-Smart-check-sizing/generated/build/datalayerClientSimple

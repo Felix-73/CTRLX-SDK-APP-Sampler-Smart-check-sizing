@@ -1,4 +1,4 @@
-# Install script for directory: /home/boschrexroth/SDK-smart-check-sizing/CtrlX-SDK-APP-Sampler-Smart-check-sizing
+# Install script for directory: /home/boschrexroth/ctrlx-automation-sdk/samples-python/MyProjects/CTRLX-SDK-APP-Sampler-Smart-check-sizing
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -43,49 +43,49 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  if(EXISTS "$ENV{DESTDIR}/home/boschrexroth/SDK-smart-check-sizing/CtrlX-SDK-APP-Sampler-Smart-check-sizing/generated/ubuntu22-gcc-aarch64/datalayerClientSimple" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}/home/boschrexroth/SDK-smart-check-sizing/CtrlX-SDK-APP-Sampler-Smart-check-sizing/generated/ubuntu22-gcc-aarch64/datalayerClientSimple")
+  if(EXISTS "$ENV{DESTDIR}/home/boschrexroth/ctrlx-automation-sdk/samples-python/MyProjects/CTRLX-SDK-APP-Sampler-Smart-check-sizing/generated/ubuntu22-gcc-x64/datalayerClientSimple" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}/home/boschrexroth/ctrlx-automation-sdk/samples-python/MyProjects/CTRLX-SDK-APP-Sampler-Smart-check-sizing/generated/ubuntu22-gcc-x64/datalayerClientSimple")
     file(RPATH_CHECK
-         FILE "$ENV{DESTDIR}/home/boschrexroth/SDK-smart-check-sizing/CtrlX-SDK-APP-Sampler-Smart-check-sizing/generated/ubuntu22-gcc-aarch64/datalayerClientSimple"
+         FILE "$ENV{DESTDIR}/home/boschrexroth/ctrlx-automation-sdk/samples-python/MyProjects/CTRLX-SDK-APP-Sampler-Smart-check-sizing/generated/ubuntu22-gcc-x64/datalayerClientSimple"
          RPATH "")
   endif()
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/boschrexroth/SDK-smart-check-sizing/CtrlX-SDK-APP-Sampler-Smart-check-sizing/generated/ubuntu22-gcc-aarch64/datalayerClientSimple")
+   "/home/boschrexroth/ctrlx-automation-sdk/samples-python/MyProjects/CTRLX-SDK-APP-Sampler-Smart-check-sizing/generated/ubuntu22-gcc-x64/datalayerClientSimple")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/home/boschrexroth/SDK-smart-check-sizing/CtrlX-SDK-APP-Sampler-Smart-check-sizing/generated/ubuntu22-gcc-aarch64" TYPE EXECUTABLE FILES "/home/boschrexroth/SDK-smart-check-sizing/CtrlX-SDK-APP-Sampler-Smart-check-sizing/build/datalayerClientSimple")
-  if(EXISTS "$ENV{DESTDIR}/home/boschrexroth/SDK-smart-check-sizing/CtrlX-SDK-APP-Sampler-Smart-check-sizing/generated/ubuntu22-gcc-aarch64/datalayerClientSimple" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}/home/boschrexroth/SDK-smart-check-sizing/CtrlX-SDK-APP-Sampler-Smart-check-sizing/generated/ubuntu22-gcc-aarch64/datalayerClientSimple")
+  file(INSTALL DESTINATION "/home/boschrexroth/ctrlx-automation-sdk/samples-python/MyProjects/CTRLX-SDK-APP-Sampler-Smart-check-sizing/generated/ubuntu22-gcc-x64" TYPE EXECUTABLE FILES "/home/boschrexroth/ctrlx-automation-sdk/samples-python/MyProjects/CTRLX-SDK-APP-Sampler-Smart-check-sizing/build/datalayerClientSimple")
+  if(EXISTS "$ENV{DESTDIR}/home/boschrexroth/ctrlx-automation-sdk/samples-python/MyProjects/CTRLX-SDK-APP-Sampler-Smart-check-sizing/generated/ubuntu22-gcc-x64/datalayerClientSimple" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}/home/boschrexroth/ctrlx-automation-sdk/samples-python/MyProjects/CTRLX-SDK-APP-Sampler-Smart-check-sizing/generated/ubuntu22-gcc-x64/datalayerClientSimple")
     if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}/home/boschrexroth/SDK-smart-check-sizing/CtrlX-SDK-APP-Sampler-Smart-check-sizing/generated/ubuntu22-gcc-aarch64/datalayerClientSimple")
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}/home/boschrexroth/ctrlx-automation-sdk/samples-python/MyProjects/CTRLX-SDK-APP-Sampler-Smart-check-sizing/generated/ubuntu22-gcc-x64/datalayerClientSimple")
     endif()
   endif()
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  if(EXISTS "$ENV{DESTDIR}/home/boschrexroth/SDK-smart-check-sizing/CtrlX-SDK-APP-Sampler-Smart-check-sizing/generated/build/datalayerClientSimple" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}/home/boschrexroth/SDK-smart-check-sizing/CtrlX-SDK-APP-Sampler-Smart-check-sizing/generated/build/datalayerClientSimple")
+  if(EXISTS "$ENV{DESTDIR}/home/boschrexroth/ctrlx-automation-sdk/samples-python/MyProjects/CTRLX-SDK-APP-Sampler-Smart-check-sizing/generated/build/datalayerClientSimple" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}/home/boschrexroth/ctrlx-automation-sdk/samples-python/MyProjects/CTRLX-SDK-APP-Sampler-Smart-check-sizing/generated/build/datalayerClientSimple")
     file(RPATH_CHECK
-         FILE "$ENV{DESTDIR}/home/boschrexroth/SDK-smart-check-sizing/CtrlX-SDK-APP-Sampler-Smart-check-sizing/generated/build/datalayerClientSimple"
+         FILE "$ENV{DESTDIR}/home/boschrexroth/ctrlx-automation-sdk/samples-python/MyProjects/CTRLX-SDK-APP-Sampler-Smart-check-sizing/generated/build/datalayerClientSimple"
          RPATH "")
   endif()
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/boschrexroth/SDK-smart-check-sizing/CtrlX-SDK-APP-Sampler-Smart-check-sizing/generated/build/datalayerClientSimple")
+   "/home/boschrexroth/ctrlx-automation-sdk/samples-python/MyProjects/CTRLX-SDK-APP-Sampler-Smart-check-sizing/generated/build/datalayerClientSimple")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/home/boschrexroth/SDK-smart-check-sizing/CtrlX-SDK-APP-Sampler-Smart-check-sizing/generated/build" TYPE EXECUTABLE FILES "/home/boschrexroth/SDK-smart-check-sizing/CtrlX-SDK-APP-Sampler-Smart-check-sizing/build/datalayerClientSimple")
-  if(EXISTS "$ENV{DESTDIR}/home/boschrexroth/SDK-smart-check-sizing/CtrlX-SDK-APP-Sampler-Smart-check-sizing/generated/build/datalayerClientSimple" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}/home/boschrexroth/SDK-smart-check-sizing/CtrlX-SDK-APP-Sampler-Smart-check-sizing/generated/build/datalayerClientSimple")
+  file(INSTALL DESTINATION "/home/boschrexroth/ctrlx-automation-sdk/samples-python/MyProjects/CTRLX-SDK-APP-Sampler-Smart-check-sizing/generated/build" TYPE EXECUTABLE FILES "/home/boschrexroth/ctrlx-automation-sdk/samples-python/MyProjects/CTRLX-SDK-APP-Sampler-Smart-check-sizing/build/datalayerClientSimple")
+  if(EXISTS "$ENV{DESTDIR}/home/boschrexroth/ctrlx-automation-sdk/samples-python/MyProjects/CTRLX-SDK-APP-Sampler-Smart-check-sizing/generated/build/datalayerClientSimple" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}/home/boschrexroth/ctrlx-automation-sdk/samples-python/MyProjects/CTRLX-SDK-APP-Sampler-Smart-check-sizing/generated/build/datalayerClientSimple")
     if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}/home/boschrexroth/SDK-smart-check-sizing/CtrlX-SDK-APP-Sampler-Smart-check-sizing/generated/build/datalayerClientSimple")
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}/home/boschrexroth/ctrlx-automation-sdk/samples-python/MyProjects/CTRLX-SDK-APP-Sampler-Smart-check-sizing/generated/build/datalayerClientSimple")
     endif()
   endif()
 endif()
@@ -98,5 +98,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/boschrexroth/SDK-smart-check-sizing/CtrlX-SDK-APP-Sampler-Smart-check-sizing/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/boschrexroth/ctrlx-automation-sdk/samples-python/MyProjects/CTRLX-SDK-APP-Sampler-Smart-check-sizing/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/boschrexroth/SDK-smart-check-sizing/CtrlX-SDK-APP-Sampler-Smart-check-sizing/main.cpp" "CMakeFiles/datalayerClientSimple.dir/main.cpp.o" "gcc" "CMakeFiles/datalayerClientSimple.dir/main.cpp.o.d"
+  "/home/boschrexroth/ctrlx-automation-sdk/samples-python/MyProjects/CTRLX-SDK-APP-Sampler-Smart-check-sizing/main.cpp" "CMakeFiles/datalayerClientSimple.dir/main.cpp.o" "gcc" "CMakeFiles/datalayerClientSimple.dir/main.cpp.o.d"
   )
 
 # Targets to which this target links.

@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/boschrexroth/SDK-smart-check-sizing/CtrlX-SDK-APP-Sampler-Smart-check-sizing
+CMAKE_SOURCE_DIR = /home/boschrexroth/ctrlx-automation-sdk/samples-python/MyProjects/CTRLX-SDK-APP-Sampler-Smart-check-sizing
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/boschrexroth/SDK-smart-check-sizing/CtrlX-SDK-APP-Sampler-Smart-check-sizing/build
+CMAKE_BINARY_DIR = /home/boschrexroth/ctrlx-automation-sdk/samples-python/MyProjects/CTRLX-SDK-APP-Sampler-Smart-check-sizing/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -81,14 +81,14 @@ clean: CMakeFiles/datalayerClientSimple.dir/clean
 CMakeFiles/datalayerClientSimple.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/datalayerClientSimple.dir/build.make CMakeFiles/datalayerClientSimple.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/datalayerClientSimple.dir/build.make CMakeFiles/datalayerClientSimple.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/boschrexroth/SDK-smart-check-sizing/CtrlX-SDK-APP-Sampler-Smart-check-sizing/build/CMakeFiles --progress-num=1,2 "Built target datalayerClientSimple"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/boschrexroth/ctrlx-automation-sdk/samples-python/MyProjects/CTRLX-SDK-APP-Sampler-Smart-check-sizing/build/CMakeFiles --progress-num=1,2 "Built target datalayerClientSimple"
 .PHONY : CMakeFiles/datalayerClientSimple.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/datalayerClientSimple.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/boschrexroth/SDK-smart-check-sizing/CtrlX-SDK-APP-Sampler-Smart-check-sizing/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/boschrexroth/ctrlx-automation-sdk/samples-python/MyProjects/CTRLX-SDK-APP-Sampler-Smart-check-sizing/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/datalayerClientSimple.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/boschrexroth/SDK-smart-check-sizing/CtrlX-SDK-APP-Sampler-Smart-check-sizing/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/boschrexroth/ctrlx-automation-sdk/samples-python/MyProjects/CTRLX-SDK-APP-Sampler-Smart-check-sizing/build/CMakeFiles 0
 .PHONY : CMakeFiles/datalayerClientSimple.dir/rule
 
 # Convenience name for target.
