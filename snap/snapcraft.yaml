@@ -3,13 +3,13 @@
 # Snapcraft references
 # See https://snapcraft.io/docs/snapcraft-yaml-reference
 
-name: sdk-cpp-client-simple
-title: SDK C++ Client Simple
+name: sampler-smart-check-sizing
+title: Sampler smart check sizing
 version: 1.0.0
 grade: stable
-summary: Sample app for datalayer client
+summary: Data acquisition application for smart check sizing
 description: |
-  This app will read ctrlX Data Layer nodes and print out their value.
+  This app work in pair with the application Smart Check Sizing. See the code here : https://github.com/Felix-73/CTRLX-SDK-APP-Sampler-Smart-check-sizing
 base: core22
 confinement: strict
 
