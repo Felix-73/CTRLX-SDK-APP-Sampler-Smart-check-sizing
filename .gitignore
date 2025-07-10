@@ -19,6 +19,7 @@ _deps/
 CMakeOutput.log
 
 # Build directories
+build/*
 build/
 Build/
 BUILD/
@@ -55,3 +56,4 @@ _CPack_Packages/
 # CTest
 CTestTestfile.cmake
 
+generated/
