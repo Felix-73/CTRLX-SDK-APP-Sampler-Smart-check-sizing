@@ -1,2 +1,0 @@
-/home/boschrexroth/ctrlx-automation-sdk/samples-python/MyProjects/CTRLX-SDK-APP-Sampler-Smart-check-sizing/generated/ubuntu22-gcc-x64/datalayerClientSimple
-/home/boschrexroth/ctrlx-automation-sdk/samples-python/MyProjects/CTRLX-SDK-APP-Sampler-Smart-check-sizing/generated/build/datalayerClientSimple
