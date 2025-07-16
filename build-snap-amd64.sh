@@ -7,4 +7,5 @@ mkdir build/
 pushd build
 cmake -DBUILD_KIT='GCC x86_64-linux-gnu' -DBUILD_SNAP=ON ..
 make install
+make clean
 popd
