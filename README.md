@@ -4,6 +4,7 @@
 
 ## Objectifs
 
+plop
 Cette application, crée des noeuds sur la datalayer. Ces noeuf servent à stocker sous forme d'array l'aquisition des données remontées en ethercat.
 
 Cette app est la fusion de deux exemples fournis par le sdk en cpp : Datalayer.client et datalayer.provider.
