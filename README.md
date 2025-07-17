@@ -19,7 +19,7 @@ Le flag qui lance l'acquisition des données est boolFlag. Ce booléen doit êtr
 
 ## Build l'app
 -  git clone
-- ```./build-snap-amd64.sh``` ou ```./build-snap-arm64.sh```
+- ```sudo ./build-snap-amd64.sh``` ou ```sudo ./build-snap-arm64.sh```
 
 ## Comment Debug 
 [How To](https://community.boschrexroth.com/ctrlx-automation-how-tos-qmglrz33/post/debug-c-apps-with-sdk-for-ctrlx-automation-yRRkCN1eGXGPoLl)
